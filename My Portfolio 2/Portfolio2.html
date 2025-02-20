@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style_portfolio.css">
+</head>
+
+<body>
+  <header id="header">
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <ul id="nav">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm John Angelo De Veyra, a developer specializing in data science, mobile development, and web applications.
+      </p>
+      <figure>
+        <img src="gelo.jpg" alt="A placeholder image for my portfolio" id="profile-img">
+        <figcaption>John Angelo De Veyra</figcaption>
+      </figure>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <table id="projects-table">
+        <thead>
+          <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>iTemp</td>
+            <td>Integrating Real-time Temperature Monitoring system with Node8266</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Muscle Control Gym</td>
+            <td>Mobile fitness application</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>VetSharp</td>
+            <td>Veterinary Management System</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>TIP Tool Room</td>
+            <td>Software solution to manage tool borrowing at the TIP Tool Room</td>
+            <td>2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <p>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name">
+        </p>
+        <p>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email">
+        </p>
+        <fieldset id="referral">
+          <legend>How did you hear about this portfolio?</legend>
+          <p>
+            <input type="radio" id="referral-friend" name="referral" value="Friend">
+            <label for="referral-friend">Friend</label>
+          </p>
+          <p>
+            <input type="radio" id="referral-social" name="referral" value="Social Media">
+            <label for="referral-social">Social Media</label>
+          </p>
+          <p>
+            <input type="radio" id="referral-search" name="referral" value="Search Engine">
+            <label for="referral-search">Search Engine</label>
+          </p>
+          <p>
+            <input type="radio" id="referral-other" name="referral" value="Other">
+            <label for="referral-other">Other</label>
+          </p>
+        </fieldset>
+        <fieldset id="skills">
+          <legend>Skill/Interest</legend>
+          <p>
+            <input type="checkbox" id="skill-web" name="skills" value="Web Development">
+            <label for="skill-web">Web Development</label>
+          </p>
+          <p>
+            <input type="checkbox" id="skill-design" name="skills" value="Design">
+            <label for="skill-design">Design</label>
+          </p>
+          <p>
+            <input type="checkbox" id="skill-photo" name="skills" value="Photography">
+            <label for="skill-photo">Photography</label>
+          </p>
+        </fieldset>
+        <p>
+          <label for="message">Comments or Messages:</label>
+          <textarea id="message" name="message"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Submit">
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>©2025</p>
+  </footer>
+</body>
+
+</html>

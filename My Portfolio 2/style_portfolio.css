@@ -1,0 +1,124 @@
+
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header */
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #header h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation */
+  #nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #nav li {
+    margin: 0 15px;
+  }
+  
+  #nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  /* Main Sections */
+  main section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Figure for image and caption */
+  figure {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  #profile-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Projects Table */
+  #projects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #projects-table th,
+  #projects-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #projects-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Contact Form */
+  #contact-form p {
+    margin-bottom: 15px;
+  }
+  
+  #contact-form label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #contact-form textarea {
+    resize: vertical;
+  }
+  
+  /* Fieldsets */
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  legend {
+    padding: 0 5px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  #footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
